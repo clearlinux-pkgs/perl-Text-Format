@@ -4,7 +4,7 @@
 #
 Name     : perl-Text-Format
 Version  : 0.61
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Text-Format-0.61.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Text-Format-0.61.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libt/libtext-format-perl/libtext-format-perl_0.61-1.debian.tar.xz
@@ -13,6 +13,7 @@ Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0 GPL-2.0
 Requires: perl-Text-Format-license = %{version}-%{release}
 BuildRequires : buildreq-cpan
+BuildRequires : perl(Module::Build)
 
 %description
 This archive contains the distribution Text-Format,
@@ -80,7 +81,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.26.1/Text/Format.pm
+/usr/lib/perl5/vendor_perl/5.28.0/Text/Format.pm
 
 %files dev
 %defattr(-,root,root,-)
