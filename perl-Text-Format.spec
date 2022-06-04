@@ -4,7 +4,7 @@
 #
 Name     : perl-Text-Format
 Version  : 0.62
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Text-Format-0.62.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Text-Format-0.62.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libt/libtext-format-perl/libtext-format-perl_0.61-1.debian.tar.xz
@@ -103,4 +103,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Text/Format.pm
+/usr/lib/perl5/*
