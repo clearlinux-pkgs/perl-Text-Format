@@ -1,5 +1,5 @@
 PKG_NAME := perl-Text-Format
-URL = https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Text-Format-0.62.tar.gz
-ARCHIVES = http://http.debian.net/debian/pool/main/libt/libtext-format-perl/libtext-format-perl_0.61-1.debian.tar.xz deblicense/
+URL = https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Text-Format-0.63.tar.gz
+ARCHIVES = 
 
 include ../common/Makefile.common
