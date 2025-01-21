@@ -7,7 +7,7 @@
 #
 Name     : perl-Text-Format
 Version  : 0.63
-Release  : 26
+Release  : 27
 URL      : https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Text-Format-0.63.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Text-Format-0.63.tar.gz
 Summary  : 'Various subroutines to format text.'
